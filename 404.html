@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>This page has moved</title>
+<meta name="robots" content="noindex">
+<script>
+  // Everything without its own stub lands here: the old Squarespace file
+  // downloads (/s/...), and any other path, which goes to the publications page.
+  var NEW = 'https://kpmoran.com';
+  var FILES = {
+    '/s/FUSION_Documentation.pdf': '/projects/fusion/files/FUSION_Documentation.pdf',
+    '/s/FUSION_Dataset_CSV.zip': '/projects/fusion/files/FUSION_Dataset_CSV.zip',
+    '/s/FUSION_Dataset-da7l.xlsx': '/projects/fusion/files/FUSION_Dataset-da7l.xlsx',
+    '/s/Study_1_Summarized_Results.zip': '/projects/crashscope/files/Study_1_Summarized_Results.zip',
+    '/s/User_Study_Results.xlsx': '/projects/crashscope/files/User_Study_Results.xlsx',
+    '/s/FSE-Online_Appendix-Data.zip': '/projects/mdroid/files/FSE-Online_Appendix-Data.zip'
+  };
+  location.replace(NEW + (FILES[location.pathname] || '/publications/'));
+</script>
+</head>
+<body>
+<p>This site has moved to <a href="https://kpmoran.com/publications/">kpmoran.com</a>.</p>
+</body>
+</html>
